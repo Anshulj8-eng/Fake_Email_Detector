@@ -2,7 +2,7 @@
 A Machine Learning based Fake/Spam Email Detector built using Python, Scikit-learn, and Streamlit.
 This project analyzes multiple email-related features and predicts whether an email is Spam (Fake) or Real.
 
-🚀 Features
+# 🚀 Features
 
 ✅ Detects Spam vs Real Emails using ML
 📊 Analytics Dashboard with interactive charts
@@ -10,7 +10,7 @@ This project analyzes multiple email-related features and predicts whether an em
 📥 Download Prediction Report + History as CSV
 🧠 Random Forest Model with StandardScaler
 
-#🧠 Machine Learning Model
+# Machine Learning Model
 
 Algorithm Used: Random Forest Classifier
 
@@ -20,7 +20,7 @@ Dataset: Generated synthetic dataset (spam_email.csv)
 
 Target Column: is_spam
 
-📌 Input Features Used
+# 📌 Input Features Used
 Feature	Description
 has_link	Email contains a link
 has_money_words	Contains money-related words
@@ -30,7 +30,7 @@ num_exclamation	Count of !
 email_length	Total email length
 num_digits	Count of digits
 num_special_chars	Count of special characters
-📂 Project Structure
+# 📂 Project Structure
 fake_email_detection/
 │
 ├── app.py                     # Streamlit web app
@@ -47,15 +47,15 @@ fake_email_detection/
 │
 └── requirements.txt
 
-⚙️ Installation
+# ⚙️ Installation
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/fake_email_detection.git
 cd fake_email_detection
 
-2️⃣ Install Dependencies
+# 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-🏋️‍♂️ Train the Model
+# 🏋️‍♂️ Train the Model
 
 Run this command to generate dataset + train model:
 
@@ -75,7 +75,7 @@ models/feature_columns.pkl
 ▶️ Run the Streamlit App
 streamlit run app.py
 
-📊 App Pages Included
+# 📊 App Pages Included
 
 🏠 Home
 🔎 Detect Emails
@@ -83,7 +83,7 @@ streamlit run app.py
 🎮 Interactive Demo
 ℹ️ About
 
-📥 Outputs
+# 📥 Outputs
 
 ✔ Prediction result (Spam / Real)
 ✔ Confidence score
@@ -91,7 +91,7 @@ streamlit run app.py
 ✔ Downloadable report CSV
 ✔ Prediction history download
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 Python
 
